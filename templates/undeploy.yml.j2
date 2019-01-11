@@ -1,12 +1,6 @@
+---
 apiVersion: apps/v1
 kind: Deployment
-metadata:
-  name: ember-csi-operator
-  namespace: {{ ember_csi_namespace }}
-
----
-apiVersion: v1
-kind: Service
 metadata:
   name: ember-csi-operator
   namespace: {{ ember_csi_namespace }}
